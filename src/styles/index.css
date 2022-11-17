@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-base-background
+}
+
+.container {
+  @apply w-full max-w-4xl mx-auto
+}
