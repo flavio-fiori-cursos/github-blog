@@ -3,9 +3,24 @@
 @tailwind utilities;
 
 body {
-  @apply bg-base-background
+  @apply bg-base-background;
 }
 
 .container {
-  @apply w-full max-w-4xl mx-auto
+  @apply w-full max-w-4xl mx-auto;
+}
+
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  @apply block mb-4 text-xl font-bold;
+}
+
+.markdown p {
+  @apply block mb-2 leading-6 text-base;
+}
+
+.markdown code {
+  font-family: monospace;
+  @apply w-full block break-words p-4 rounded-lg bg-base-profile border-base-border
 }
